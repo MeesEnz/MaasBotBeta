@@ -1,13 +1,19 @@
 {
-  "name": "Test",
-  "description": "Test",
-  "version": "0.0.0",
+  "name": "musicbotjs",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node bot.js"
-   },
-   "dependencies": {
-    "discord.js": "11.1.0",
-    "request": "2.81.0"
-    }
-   }
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "fs": "0.0.1-security",
+    "get-youtube-id": "^1.0.0",
+    "request": "^2.87.0",
+    "youtube-info": "^1.2.0",
+    "ytdl-core": "^0.20.4"
+  }
+}
